@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Jquery -->
+    <script src="./src/js/jquery-git.min.js"></script>
+
+    <!-- Sticky -->
+    <script src="./src/js/jquery.sticky.js"></script>
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="./src/css/materialize.min.css">
+    <script src="./src/js/materialize.min.js"></script>
+
+    <!-- Theme's Stylesheet -->
+    <link rel="stylesheet" href="./src/css/theme.css" />
+
+    <!-- Roboto Font + Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Twitter Widget API -->
+    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+
+    <!-- MC Player Counter -->
+    <script src="https://cdn.rawgit.com/leonardosnt/mc-player-counter/1.1.0/dist/mc-player-counter.min.js"></script>
+
+    <!-- Mobile Scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Title -->
+    <title>GitHub commands</title>
+
+    <!-- Site Description -->
+    <meta name="description" content="Your server description...">
+
+    <!-- Site Author. Feel free to change this... -->
+</head>
+
+<body>
+    <!-- NAV -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="./index.html" class="brand-logo">GitHub</a>
+                <ul id="nav-mobile" class="right hide-on-small-and-down">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./voting.html">Commands</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="header" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/header-background.jpg');">
+        <div clas="row">
+            <div class="col s12">
+                <img src="./src/img/logo.png" alt="Logo" style="center-align">
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main vote-main container-fluid">
+        <div class="row">
+            <!-- Widget Bar -->
+            <div class="col l3 s12">
+                <div class="sidebar">
+                   
+                    <div class="card-panel z-depth-2">
+                        <h5>Commands Links</h5>
+                        <a href="https://github.com/joshnh/Git-Commands">main commands</a><br>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col l9 s12">
+                <div class="box card-panel z-depth-2">
+                    <h5>Commands</h5>
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <img src="./src/img/island.jpg" class="responsive-img materialboxed">
+                        </div>
+                        <div class="col l6 s12">
+                           <h6>Ініціалізація та налаштування</h6>  
+<p>1. git init
+Ініціалізує новий локальний репозиторій Git в поточному каталозі. Тобто, перетворює вашу папку на Git-проект.
+</p>
+<p>2. git config --global user.name "Ваше Ім'я"
+Встановлює глобальне ім'я користувача, яке буде використовуватися для ідентифікації ваших комітів.
+</p>
+<p>3. git config --global user.email "[видалено електронну адресу]"
+Встановлює глобальну email-адресу користувача, яка також буде використовуватися для ідентифікації ваших комітів.
+</p>
+<h6>Робота зі змінами</h6>
+<p>4. git add .
+Додає всі змінені файли в індекс. Індекс – це як своєрідний буфер, який зберігає зміни перед тим, як їх зафіксувати.
+</p>
+<p>5. git commit -m "Опис коміту"
+Фіксує зміни з індексу в репозиторій. Обов'язково додавайте зрозумілий опис, щоб потім легко орієнтуватися в історії змін.
+</p>
+<h6>Перегляд історії</h6>
+
+<p>6. git log
+Виводить список всіх комітів у хронологічному порядку.
+</p>
+<h6>Переміщення між комітами</h6>
+
+<p>7. git checkout 
+Перемикається на вказаний коміт. Ви можете використовувати перші кілька символів хешу для короткого запису.
+</p>
+<h6>Створення гілок</h6>
+
+<p>8. git branch <ім'я_гілки>
+Створює нову гілку.
+</p>
+<p>9. git checkout <ім'я_гілки>
+Перемикається на існуючу гілку.
+</p>
+<h6>Злиття гілок</h6>
+<p>10. git merge <ім'я_гілки>
+Зливає вказану гілку в поточну.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>About</h5>
+                    <p>In neque magna, tincidunt quis odio ut, fermentum consequat mi. Aliquam ut condimentum libero. Vivamus lacinia ex cursus neque convallis fermentum. Integer ac libero aliquet, bibendum ante id, porta nunc.
+                    </p>
+
+                </div>
+
+                <div class="col l4 offset-l2 s12">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="./policy.html">Privacy Policy </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+               
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
